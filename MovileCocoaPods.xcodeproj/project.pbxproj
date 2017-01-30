@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B0D29F39F2CD5CED6B9E3910 /* Pods_MovileCocoaPods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6153961343196D1AA7FE42C2 /* Pods_MovileCocoaPods.framework */; };
 		CEF878781E3BC374007C8B2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF878771E3BC374007C8B2E /* AppDelegate.swift */; };
 		CEF8787A1E3BC374007C8B2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF878791E3BC374007C8B2E /* ViewController.swift */; };
 		CEF8787D1E3BC374007C8B2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF8787B1E3BC374007C8B2E /* Main.storyboard */; };
@@ -34,6 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08506B8A6078C51C796E123C /* Pods-MovileCocoaPods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovileCocoaPods.release.xcconfig"; path = "Pods/Target Support Files/Pods-MovileCocoaPods/Pods-MovileCocoaPods.release.xcconfig"; sourceTree = "<group>"; };
+		6153961343196D1AA7FE42C2 /* Pods_MovileCocoaPods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MovileCocoaPods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82CEE6F3F4FD31E934FBC06E /* Pods-MovileCocoaPods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovileCocoaPods.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MovileCocoaPods/Pods-MovileCocoaPods.debug.xcconfig"; sourceTree = "<group>"; };
 		CEF878741E3BC374007C8B2E /* MovileCocoaPods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovileCocoaPods.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF878771E3BC374007C8B2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEF878791E3BC374007C8B2E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,7 @@
 		CEF878931E3BC374007C8B2E /* MovileCocoaPodsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovileCocoaPodsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF878971E3BC374007C8B2E /* MovileCocoaPodsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovileCocoaPodsUITests.swift; sourceTree = "<group>"; };
 		CEF878991E3BC374007C8B2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEF878A51E3F9725007C8B2E /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/MovileCocoaPods-apxqpuggjvhevyemclmxelwmjaoz/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0D29F39F2CD5CED6B9E3910 /* Pods_MovileCocoaPods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +80,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A7E777587EC5B40AD003453F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				82CEE6F3F4FD31E934FBC06E /* Pods-MovileCocoaPods.debug.xcconfig */,
+				08506B8A6078C51C796E123C /* Pods-MovileCocoaPods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BD064C2FDA7F555C2AEFCDD2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEF878A51E3F9725007C8B2E /* Alamofire.framework */,
+				6153961343196D1AA7FE42C2 /* Pods_MovileCocoaPods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CEF8786B1E3BC374007C8B2E = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +105,8 @@
 				CEF8788B1E3BC374007C8B2E /* MovileCocoaPodsTests */,
 				CEF878961E3BC374007C8B2E /* MovileCocoaPodsUITests */,
 				CEF878751E3BC374007C8B2E /* Products */,
+				A7E777587EC5B40AD003453F /* Pods */,
+				BD064C2FDA7F555C2AEFCDD2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +158,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEF8789C1E3BC374007C8B2E /* Build configuration list for PBXNativeTarget "MovileCocoaPods" */;
 			buildPhases = (
+				B53FE7AA9DA5B17AEA427AE1 /* [CP] Check Pods Manifest.lock */,
 				CEF878701E3BC374007C8B2E /* Sources */,
 				CEF878711E3BC374007C8B2E /* Frameworks */,
 				CEF878721E3BC374007C8B2E /* Resources */,
+				C69011094E910433C0BE6C1F /* [CP] Embed Pods Frameworks */,
+				52DF209920EDB837BA71356E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +285,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		52DF209920EDB837BA71356E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MovileCocoaPods/Pods-MovileCocoaPods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B53FE7AA9DA5B17AEA427AE1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C69011094E910433C0BE6C1F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MovileCocoaPods/Pods-MovileCocoaPods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CEF878701E3BC374007C8B2E /* Sources */ = {
@@ -411,6 +488,7 @@
 		};
 		CEF8789D1E3BC374007C8B2E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82CEE6F3F4FD31E934FBC06E /* Pods-MovileCocoaPods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Y6J3E8PG4E;
@@ -424,6 +502,7 @@
 		};
 		CEF8789E1E3BC374007C8B2E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08506B8A6078C51C796E123C /* Pods-MovileCocoaPods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Y6J3E8PG4E;
@@ -512,6 +591,7 @@
 				CEF8789E1E3BC374007C8B2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CEF8789F1E3BC374007C8B2E /* Build configuration list for PBXNativeTarget "MovileCocoaPodsTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +600,7 @@
 				CEF878A11E3BC374007C8B2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CEF878A21E3BC374007C8B2E /* Build configuration list for PBXNativeTarget "MovileCocoaPodsUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +609,7 @@
 				CEF878A41E3BC374007C8B2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

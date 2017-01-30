@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CEF878731E3BC374007C8B2E"
+               BuildableName = "MovileCocoaPods.app"
+               BlueprintName = "MovileCocoaPods"
+               ReferencedContainer = "container:MovileCocoaPods.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CEF878871E3BC374007C8B2E"
+               BuildableName = "MovileCocoaPodsTests.xctest"
+               BlueprintName = "MovileCocoaPodsTests"
+               ReferencedContainer = "container:MovileCocoaPods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CEF878921E3BC374007C8B2E"
+               BuildableName = "MovileCocoaPodsUITests.xctest"
+               BlueprintName = "MovileCocoaPodsUITests"
+               ReferencedContainer = "container:MovileCocoaPods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "CEF878731E3BC374007C8B2E"
+            BuildableName = "MovileCocoaPods.app"
+            BlueprintName = "MovileCocoaPods"
+            ReferencedContainer = "container:MovileCocoaPods.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "CEF878731E3BC374007C8B2E"
+            BuildableName = "MovileCocoaPods.app"
+            BlueprintName = "MovileCocoaPods"
+            ReferencedContainer = "container:MovileCocoaPods.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "CEF878731E3BC374007C8B2E"
+            BuildableName = "MovileCocoaPods.app"
+            BlueprintName = "MovileCocoaPods"
+            ReferencedContainer = "container:MovileCocoaPods.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
