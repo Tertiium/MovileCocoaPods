@@ -28,6 +28,9 @@ class SerieCollectionViewController: UICollectionViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        //Print para Branch no Git
+        print("Ramificação Secundário")
+        
         // Register cell classes
         self.collectionView!.register(UINib(nibName: "SerieCollectionViewCell", bundle: nil), forCellWithReuseIdentifier:reuseIdentifier)
         
